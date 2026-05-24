@@ -1,14 +1,13 @@
-PULL_REQUEST_TEMPLATE
+# Pull Request - HACK-3 (Flexbox)
 
-Tecnología
-- HTML
-- CSS3
-- docs
+## Tecnología
+- [x] HTML
+- [x] CSS3
 
-Seleccione el tipo de actividad
-- Feature
-- Changes
-- Hotfix
-- Refactor
-- Performance
-- Testing
+## Tipo de actividad
+- [x] Feature
+
+## Restricciones
+- [x] Solo Flexbox
+- [ ] Sin position
+- [ ] Sin float.

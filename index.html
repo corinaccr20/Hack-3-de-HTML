@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HACK-3 - Flexbox</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>HACK-2 | Esquema Timeline</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <div class="bg-overlay"></div>
+
     <div class="container">
-        <header class="header">
-            <div class="logo">MiLogo</div>
-            <nav class="nav">
-                <a href="#">Inicio</a>
-                <a href="#">Servicios</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </header>
+        
+        <div class="box box-center box-1">
+            <h3>docs markdown 1 | markdown 2 | archivos de salud</h3>
+        </div>
 
-        <main class="main">
-            <h1>Bienvenido al HACK-3</h1>
-            <p>Este layout usa solo Flexbox con los colores BLUE (#93B5C9) y WINE (#AB2849).</p>
-        </main>
+        
+        <div class="box box-center box-2">
+            <h3>docs comandos git | conventional commit</h3>
+        </div>
 
-        <footer class="footer">
-            <p>Hack 3</p>
-        </footer>
+        
+        <div class="box box-center-small box-3">
+            <p>debés crear por cada hack un <strong>PULL_REQUEST_TEMPLATE</strong></p>
+        </div>
+
+        
+        <div class="box-split-container box-4">
+            <div class="box-half box-half-left">
+                <p>y un flujo de tres ramas</p>
+                <p><strong>(main / develop / tus feature)</strong></p>
+            </div>
+            <div class="box-half box-half-right">
+                <p>- Clonar el repositorio</p>
+                <p>- Definir contenido en README.md</p>
+            </div>
+        </div>
+
+        
+        <div class="box box-center-small box-5">
+            <p>Copie el fragmento del texto del sector <strong>PULL_REQUEST_TEMPLATE</strong></p>
+        </div>
+
+        
+        <div class="box-split-container box-6">
+            <div class="box-half box-half-left">
+                <p><strong>Tecnología:</strong></p>
+                <p>HTML | CSS3 | docs</p>
+            </div>
+            <div class="box-half box-half-right">
+                <p><strong>Tipo de actividad:</strong></p>
+                <p>Feature | Changes | Hotfix | Refactor | Performance | Testing</p>
+            </div>
+        </div>
+
+        
+        <div class="box box-center-long box-7">
+            <p><strong>#TIPS:</strong> Detectar elementos flotantes clear:both | right | left | Background Image con position relative/absolute, z-index: -1</p>
+        </div>
     </div>
 </body>
 </html>
